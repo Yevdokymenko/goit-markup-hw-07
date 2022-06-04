@@ -1,0 +1,41 @@
+.features {
+  padding-bottom: 0;
+}
+
+.features-list__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-list__item {
+  max-width: 270px;
+  margin-right: 30px;
+}
+
+.features-list__item:last-child {
+  margin-right: 0;
+}
+
+.features-list__text {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.features-list__icon-fon {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.features-list__icon {
+  display: block;
+}
